@@ -1,8 +1,8 @@
 from nbconvert import MarkdownExporter
 
 # 配置
-from_path = "lab/lab2/lab2.ipynb"
-to_path = "lab/lab2/lab2.md"
+from_path = "lab/lab3/lab3.ipynb"
+to_path = "lab/lab3/lab3.md"
 
 def convert_notebook_to_markdown(notebook_path, output_path):
     exporter = MarkdownExporter()
